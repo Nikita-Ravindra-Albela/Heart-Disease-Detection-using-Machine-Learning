@@ -8,11 +8,8 @@ To analyze patient data and develop a machine learning model that predicts wheth
 
 # Key Questions Answered
 
-What are the major risk factors contributing to heart disease?
 
 Can we predict heart disease with high accuracy using ML algorithms?
-
-Which variables (cholesterol, age, blood pressure, etc.) influence the prediction most?
 
 How can this model assist healthcare practitioners or preventive health programs?
 
@@ -57,88 +54,22 @@ Standardized numeric features using StandardScaler
 Split dataset into train and test using train_test_split()
 
 # Exploratory Data Analysis (EDA)
-
-Correlation heatmap between features
-
-Distribution plots of cholesterol, age, blood pressure
-
-Gender-based comparison of heart disease risk
-
-Visualization of chest pain types vs target outcome
+- Checked the data for anamolies
+- Checked the structure and information of the data.
+- Split the data for training and testing purpose using supervised machine learning.
+- Trained the model by splitting it as per train test algorithm.
+- predicted the value and checked the accuracy score -81% (Good to move ahead with the predictive model)
+- Added dummy values for prediction and changed the datatype to array. 
+- Performed the prediction to further predict if the patient is healthy or needs to consult to a doctor.
 
 # Model Building
 
-Implemented and evaluated multiple algorithms:
+Implemented and evaluated train test split:
 
 Logistic Regression
 
-Random Forest Classifier
-
-K-Nearest Neighbors
-
-Support Vector Machine
-
-Decision Tree
-
-Compared model performance using:
-
-Accuracy
-
-Precision
-
-Recall
-
-F1-score
-
-ROC-AUC curve
-
-# Model Evaluation
-Model	Accuracy	Precision	Recall	F1 Score
-Logistic Regression	0.85	0.86	0.83	0.84
-Random Forest	0.88	0.90	0.85	0.87
-SVM	0.86	0.87	0.84	0.85
-
-(Values are examples — replace with your actual results)
-
-# Feature Importance
-
-Identified the top 5 factors influencing prediction:
-
-Age
-
-Chest pain type
-
-Cholesterol level
-
-Max heart rate
-
-Exercise-induced angina
-
-# Insights
-
-Patients with higher cholesterol, older age, and exercise-induced angina showed greater heart disease risk.
-
-Chest pain type and maximum heart rate were among the strongest predictors.
-
-The best model achieved ~88% accuracy, suitable for preliminary screening use cases.
 
 # Results Summary
-
-Built a reliable classification pipeline with cross-validation
-
-Reduced false negatives — crucial for medical prediction systems
-
-Delivered a visualization-driven report for clinical interpretation
-
-# Future Improvements
-
-Include larger and more diverse datasets for generalization
-
-Implement deep learning (ANN) for non-linear patterns
-
-Deploy on cloud (e.g., AWS / Streamlit web app)
-
-Integrate real-world wearable health data (Fitbit, Apple Watch)
 
 # Author
 
