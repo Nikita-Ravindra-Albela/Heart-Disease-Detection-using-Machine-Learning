@@ -1,0 +1,11 @@
+Executive Summary
+
+This project focuses on using machine learning to detect the risk of heart disease based on medical parameters such as age, cholesterol, blood pressure, and chest pain type.
+
+By leveraging models like Logistic Regression, the system can predict whether a patient is at high or low risk — achieving up to 81% accuracy.
+
+The analysis found that age, chest pain type, cholesterol, and maximum heart rate are the strongest predictors of heart disease.
+
+This kind of data-driven diagnostic support can help hospitals, insurers, and healthcare startups reduce diagnosis time, prioritize high-risk patients, and enhance preventive care strategies.
+
+In essence, this project demonstrates how data analytics can save lives by combining clinical data analysis with predictive modeling, paving the way for smarter healthcare decisions.
